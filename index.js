@@ -12,7 +12,7 @@ module.exports = {
     return {
       name: options.name,
 
-      didBuild: function(context) {
+      didUpload: function(context) {
         var promises = context.distFiles
             .filter(function(file) {
               return file.match(/^assets\/.*\.map$/)
