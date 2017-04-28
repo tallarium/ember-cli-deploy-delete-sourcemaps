@@ -1,7 +1,7 @@
 /* jshint node: true */
 'use strict';
 
-var Promise = require('ember-cli/lib/ext/promise');
+var Promise = require('rsvp');
 var fs = require('fs');
 var path = require('path');
 
