@@ -1,9 +1,11 @@
 /* jshint node: true */
 'use strict';
 
-var Promise = require('rsvp');
+var rsvp = require('rsvp');
 var fs = require('fs');
 var path = require('path');
+
+var Promise = rsvp.Promise;
 
 module.exports = {
   name: 'ember-cli-deploy-delete-sourcemaps',
